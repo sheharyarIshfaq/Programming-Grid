@@ -1,0 +1,88 @@
+*
+{
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.back-drop
+{
+    width: 100%;
+    height: 100%;
+}
+.back-drop::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+.programmers
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+#Layer_1
+{
+    width: 45px;
+    margin: 0.3rem;
+    margin-right: 1.3rem;
+    fill: white;
+}
+
+@media only screen and (max-width: 336px) {
+   #Layer_1
+   {
+       display: none;
+   }
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .img-slide
+    {
+        height: 280px;
+    }
+   }
+
+  @media only screen and (max-width: 1000px) {
+    .img-slide
+    {
+        height: 300px;
+    }
+    .back-drop::before
+ {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.76);
+ }
+   }
+
+   @media only screen and (max-width: 526px) {
+    .img-slide
+    {
+        height: 400px;
+    }
+    .carousel-inner
+    {
+        font-size: 0.91rem;
+    }
+    .back-drop::before
+ {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.76);
+ }
+   }
