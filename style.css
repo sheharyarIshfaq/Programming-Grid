@@ -35,6 +35,10 @@
     fill: white;
 }
 
+footer p{
+    margin-bottom: 0 !important;
+}
+
 @media only screen and (max-width: 336px) {
    #Layer_1
    {
